@@ -1,0 +1,97 @@
+.navbar, .footer {
+  color: grey;
+  background-color:whitesmoke;
+  
+}
+
+.parallax{
+/* Set a specific height */
+min-height:375px; 
+width:100%;
+}
+
+.pic1 {
+    /* The image used */
+    background-image: url("../images/computer1.jpeg");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content{
+      position: relative;
+      height:100%;
+      background-color:#455b70;
+      font-size:16px;
+      text-align: justify;
+      color: whitesmoke;
+      
+  }
+  p{
+    line-height: 200%;
+  }
+h5{
+  background-color: darkred;
+}
+  
+  .myTitle{
+      color: #cfcfcd;
+      text-align: center;
+      margin-bottom: 22px;
+      background-color: darkred;
+  }
+  .pic2 {
+    /* The image used */
+    background-image: url("../images/computer2.jpeg");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic3 {
+    /* The image used */
+    background-image: url("../images/computer3.jpeg");
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 
+  span{
+    text-align: left;
+    text-decoration: bold;
+  }
+
+  /* Contact form */
+  .myInfo{
+    text-align: center;
+    line-height: 150%;
+  }
+  .form-control, .btn{
+    background-color: transparent;
+    border-radius: 0;
+  }
+  .form-group{
+    margin: 0 25%;
+  }
+  .btn{
+    color: darkred;
+    background-color: transparent;
+    border-color: whitesmoke;
+    margin: 15px 41%;
+    font-weight: bold;
+    width: 18%;
+  }
+  .btn:hover{
+    background-color: darkred ;
+    color: whitesmoke;
+    font-size: 18px;
+  }
+
